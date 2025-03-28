@@ -859,12 +859,8 @@ a {
         justify-content: center; 
         align-items: center;
     }
-    .card video{
-        display: none;
-    }
     .card .firsth1{
         color: white;
-        margin-right: 50px;
     }
     .my-projects img{
         display: none;
@@ -873,6 +869,23 @@ a {
         font-size: 20px;
     }
 }
+@media (max-width: 468px){
+    .card h1{
+        display:none
+    }
+    .card video{
+        display: none;
+    }
+    .card {
+        height: 20vh;
+    }
+    .videoContainer{
+        display:none;
+    }
+
+
+}
+
 
 
 
