@@ -140,7 +140,7 @@ header ul a{
     justify-content: space-between;
 }
 .hero-info{
-    position: absolute;
+    position: relative;
     left: 5%;
 }
 .hero-info .hero-info-title{
@@ -846,6 +846,32 @@ a {
     .timeline-card::before {
         left: -35px;
     }
+    .hero-vid-box{
+        display: none;
+    }
+    .scroll-down{
+        display: none;
+    }
+    .card img{
+        display: none;
+    }
+    .card{
+        justify-content: center; 
+        align-items: center;
+    }
+    .card video{
+        display: none;
+    }
+    .card .firsth1{
+        color: white;
+        margin-right: 50px;
+    }
+    .my-projects img{
+        display: none;
+    }
+    .skills-box h1{
+        font-size: 20px;
+    }
 }
 
 
@@ -1046,7 +1072,11 @@ a {
         margin-top: -16%;
     }
     .hero{
-        flex-direction: column;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+
+        
     }
     .autoBlur{
         animation: none;
